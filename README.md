@@ -34,7 +34,35 @@ Different analysis given below :-
 
 
 
-2) ****
+2) **The average salary in different countries**
+
+
+![avg salary in different countries](https://github.com/ujjwal717/salaries-analysis/assets/93403224/34a528e0-871d-4f1a-8034-868882711436)
+
+
+
+  **Explanation :-** It again contains multiple visuals according to the experience level. After that, the legend has different country names 
+  and the bars of the visuals are coded according to those legend colors so that it is easier for the viewer to understand which country is 
+  bascially represented in the visual. Note that the Y-axis displays the sum of average salaries and each and every visual supports hover tool 
+  so the visuals will show details about specific part on placing cursor on required part of visuals.
+
+
+  **Insight :-** I have found that in maximum scenarios(combination of job titles and experience level), United States pays maximum to the 
+  employees followed by Canada and United Kingdom. I have also noticed that France pays relatively lower than other countries.
+
+  **Reason :-** The most glaring reason that might have lead to the conclusion that United States pays more than other countries is the fact 
+  that it is very easy for citizens or companies to start a startup. The government is very open for such things and loans are often provided 
+  without much hassle for startups. Now I am not saying that other countries are not open to startups as other countries are also paying 
+  really well, but the ease that US has in that aspect seems a bit better. Also, these startup generally hires employees remotely which leads 
+  to more pay as the company/startup doesn't need to setup offices and ultimately pay there employees a bit more.
+
+
+
+
+
+
+
+   
 
 
 
