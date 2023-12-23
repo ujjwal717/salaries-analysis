@@ -21,4 +21,4 @@ Different analysis given below :-
 
 **Insight 2 :-** "Machine Learning Engineer" earns more than other mentioned or considered titles such as "data analyst","data engineer" and more in all the different experience levels.
 
-**Reason 2 :-** The ratio between job available and skilled machine learning engineer is not that great, so when there is high demand and low supply of good machine learning engineer as compared to other job titles, "Machine Learning Engineer" tend to earn more than other job titles.
+**Reason 2 :-** The ratio between job available and skilled machine learning engineer is not that great, so when there is high demand and low supply of good machine learning engineer as compared to other job titles, "Machine Learning Engineer" tends to earn more than other job titles.
