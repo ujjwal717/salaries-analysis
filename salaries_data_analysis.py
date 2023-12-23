@@ -125,7 +125,7 @@ def salaries_vs_countries():  # This Function shows average salary in different 
     )  # Layout update
 
     fig_3.update_traces(
-        hovertemplate="<br> Job Title  : %{x}<br> Average Salary : %{y}"
+        hovertemplate="<br> Job Title  : %{x}<br> Average Salary (USD) : %{y}"
     )  # Updated hover template
 
     for axis in fig_3.layout:
@@ -172,7 +172,7 @@ def company_size():  # This function shows average salary across years in "entry
             fig_4.layout[axis].title.text = " "
 
     fig_4.update_traces(
-        hovertemplate="<br> Job Title  : %{x}<br> Average Salary : %{y}"
+        hovertemplate="<br> Job Title  : %{x}<br> Average Salary (USD) : %{y}"
     )  # Fixed hover template
 
     fig_4.show()  # Display the visuals
