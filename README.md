@@ -116,6 +116,23 @@ Different analysis given below :-
   can deliver efficiently to high profile, regular clients so that the acquisition of clients improves. Also, the opening for entry level roles is generally less in large sized companies.
 
 
+  **Insight 3 :-** I found that in senior level roles, the large sized companies often pay significantly more than small sized companies.
+
+
+  **Reason 3 :-** This analyis and insight is related with the "insight 2" as I discussed in **Reason 2** that the large size companies want more experienced candidates which is verified by 
+  this insight of analysis. The large sized companies pay significantly more than small sized companies for senior level roles as large sized companies require experience candidates to 
+  handle important and big projects and also for the management of various project which is not a strict requirement in small sized companies.
+
+
+  **Insight 4 :-** The large sized companies are paying more than small sized companies for most of the mid experience level roles.
+
+
+  **Reason 4 :-** The reason for that would be the fact that large sized companies has a lot of projects which are not very important but need some experience from the candidates for 
+  effective completion of those projects, so what happens is that, these mid level employees are managed by the senior level employees and they provide guidance foe smooth and effective 
+  execution of those projects and as senior level employees are working on more important projects, they provide guidance to mid level employees. So, for this needs large sized companies pay 
+  more than small sized companies as this kind of working or mechanism is not that extensively used in small sized companies generally. 
+
+
 
 
   
