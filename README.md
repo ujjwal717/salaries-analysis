@@ -135,6 +135,27 @@ Different analysis given below :-
 
 
 
+5) **The Average Salary for different Experience level according to Employee residence**
+
+
+![avg salary according to emplopyee residence](https://github.com/ujjwal717/salaries-analysis/assets/93403224/754f9ee3-7559-4f82-bb0a-edc2162438a6)
+
+
+
+
+**Explanation :-** This analysis also contains different visuals according to the experience level and contains job titles on the y-axis and "sum of average salary" on the x-axis. It also 
+  includes the legend which is "Employee Residence".
+
+  **Insight :-** I found that the employees from US earns more in most of the cases. Also, the salaries of canada's employees and UK's employee is really close but for most situations, it is little more in canada's employees but the different is not that much. Employees from Germany also have satisfying amount of average salary.
+
+  **Reason :-** The cost of living in high in US which explains why their employees earn more than other countries. 
+
+
+  
+
+
+
+
   
 
   
