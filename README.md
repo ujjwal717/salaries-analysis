@@ -58,6 +58,37 @@ Different analysis given below :-
 
 
 
+3) **The Average Salary range from 2021-2023 in different Job Titles**
+
+
+![avg salary from 2021-2023](https://github.com/ujjwal717/salaries-analysis/assets/93403224/77271347-0e36-4291-ae3d-bb3e89eb5b40)
+
+
+
+**Explanation :-** These visuals include a line chart and there are different visuals according to the Job title. Also, X-axis has the year from 2021-2023 and Y-axis has the average salary. 
+  The line chart basically shows the trend of average salary of various job titles according to the years that are from 2021-2023.
+
+
+  **Insight :-** We are considering various job titles such as "Data Engineer", "Data Scientist", "Machine Learning Engineer" and "Data Analyst". Each and every role sees growth in terms of 
+  salary over the years. But we also see a little decrease in the machine learning(which is present because of data that will be explained in reason below). Other than that every job title 
+  has grown and machine learning also increases substantially in the next year. Also, note that, I have not considered experience level as a criteria in this analysis because I wanted to do 
+  this particular analysis over the fact that "how much that specific job title has increased or grown in those given years irrespective of the experience level as it is really obvious that 
+  entry level has less salary than mid level and mid level has less salary than senior level roles normally.
+
+
+  **Reason :-** The reason for little dip in the machine learning engineer might be from the fact that the year of dip(2022) might have more entry level roles in the dataset due to which the 
+  average of that year as a whole depleted a bit in the machine learning engineer title which might not be the fact in the other job titles. Other than that, the increase or growth of these 
+  roles is really great as with the growth of AI/ML, the data related roles such as data analyst, data engineering etc have also flourished as the creating ETL pipelines for the data and the 
+  effective analysis for the data is also required and that requirement is increasing because AI/ML are more related to data and modelling in ML can only be done effectively if the data is 
+  cleaned and usable which gave this boost to data related roles as well.
+
+  
+
+
+  
+
+
+
 
 
 
