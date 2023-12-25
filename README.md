@@ -82,6 +82,44 @@ Different analysis given below :-
   effective analysis for the data is also required and that requirement is increasing because AI/ML are more related to data and modelling in ML can only be done effectively if the data is 
   cleaned and usable which gave this boost to data related roles as well.
 
+
+
+
+4) **The Average Salary for different Experience level according to Company Size**
+
+
+![avg salary according to company size](https://github.com/ujjwal717/salaries-analysis/assets/93403224/e21c05fd-ccbd-4f23-8b99-aa80e10c7629)
+
+
+
+
+  **Explanation :-** This analysis includes different visuals according to different experience level and includes bubble chart representing the average salary. The size of bubbles are 
+  according to the amount of average salary and is directy proportional that is higher the average salary, bigger the bubble. Also, legends are supported and legends are according to the 
+  company size.
+
+  **Insight 1 :-** I found that medium sized companies often pay more than small size and large size company in almost all the roles.
+
+  **Reason 1 :-** The possible reason for that is the fact that, a medium sized company has more scope of growth which means the growth potential and possibility of growth is higher as 
+  compared to large sized companies(they are already big and they may also have growth potential but it won't be as much as a medium sized company). The medium sized companies might be 
+  paying more than small sized companies because they generally have more clients for which they might need more employees and are ready to pay good salaries as they have growth scope and 
+  they want to expand. Medium sized give more average salaries than large sized companies because the large sized companies often include a lot of employees in specific job titles and are 
+  often able to meet the clients requirements. Also, due to the large amount of employees, the salary ceiling is generally set to a fixed level which might not be the case with medium sized 
+  or small sized companies. 
+
+
+
+  **Insight 2 :-** I found that in entry level roles, the small sized companied often pay more than the large sized companies.
+
+
+  **Reason 2 :-** The reason for that might be the fact that the small sized companies often work in a really fast and paced environment and are not reluctant to hire somoeone who might not 
+  have industry experience but is skilled and can help in variety of tasks to help the company grow. On the other hand, the large sized companies often look for experienced candidates who 
+  can deliver efficiently to high profile, regular clients so that the acquisition of clients improves. Also, the opening for entry level roles is generally less in large sized companies.
+
+
+
+
+  
+
   
 
 
