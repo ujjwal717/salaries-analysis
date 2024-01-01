@@ -11,7 +11,8 @@ Different analysis given below :-
 1) **Average Salary in different titles across different Experience level**
 
 
-   ![avg salary in different title across various experience level](https://github.com/ujjwal717/salaries-analysis/assets/93403224/d08cff3c-c065-4fa9-8f9a-4c1fcaa94445)
+![average salary in ndifferent job titles across various experience level](https://github.com/ujjwal717/salaries-analysis/assets/93403224/9d91048e-07b9-46e0-b3b6-26fcad361339)
+
 
 **Explanation** :- It uses multiple charts that are divided according to multiple experience level and each visual has different job 
   titles.So, basically there are 3 visuals for 3 different experience level - "Entry", "Mid" , "Senior" and all these experience level 
