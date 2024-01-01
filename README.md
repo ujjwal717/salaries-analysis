@@ -5,6 +5,23 @@ I have used data from kaggle.
 
 I have used panndas to manipulate and analyse data and used plotly to visualize the data and python for programming.
 
+Before discussing each and every analysis in details, first see the two additional visuals showing that outliers from the dataset has been removed.
+
+A) **Data with Outliers**
+
+![data with outliers](https://github.com/ujjwal717/salaries-analysis/assets/93403224/563c6b1a-9cca-45b9-84ad-6ac084150d49)
+
+
+
+B) **Data without Outliers**
+
+![data without outliers](https://github.com/ujjwal717/salaries-analysis/assets/93403224/ea816ef1-f4b1-4be7-9dd3-7e2fb117a15c)
+
+
+
+
+
+
 Different analysis given below :- 
 
 
