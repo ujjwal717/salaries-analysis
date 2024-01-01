@@ -38,7 +38,8 @@ Different analysis given below :-
 2) **The average salary in different countries**
 
 
-![avg salary in different countries](https://github.com/ujjwal717/salaries-analysis/assets/93403224/34a528e0-871d-4f1a-8034-868882711436)
+![average salary for different countries](https://github.com/ujjwal717/salaries-analysis/assets/93403224/d3626e20-b3fc-4fe3-8a1e-0fdf0c06208c)
+
 
 
 
@@ -62,7 +63,8 @@ Different analysis given below :-
 3) **The Average Salary range from 2021-2023 in different Job Titles**
 
 
-![avg salary from 2021-2023](https://github.com/ujjwal717/salaries-analysis/assets/93403224/77271347-0e36-4291-ae3d-bb3e89eb5b40)
+![average salary from 2021-2023](https://github.com/ujjwal717/salaries-analysis/assets/93403224/904747fa-ccab-4cef-bbd3-123d76c26896)
+
 
 
 
@@ -89,7 +91,8 @@ Different analysis given below :-
 4) **The Average Salary for different Experience level according to Company Size**
 
 
-![avg salary according to company size](https://github.com/ujjwal717/salaries-analysis/assets/93403224/e21c05fd-ccbd-4f23-8b99-aa80e10c7629)
+![average salary according to company size](https://github.com/ujjwal717/salaries-analysis/assets/93403224/af7eb804-789c-4a13-b45b-11b5f2ee6e22)
+
 
 
 
@@ -139,7 +142,8 @@ Different analysis given below :-
 5) **The Average Salary for different Experience level according to Employee residence**
 
 
-![avg salary according to emplopyee residence](https://github.com/ujjwal717/salaries-analysis/assets/93403224/754f9ee3-7559-4f82-bb0a-edc2162438a6)
+![average salary according to employee residence](https://github.com/ujjwal717/salaries-analysis/assets/93403224/fcef8c90-b497-45af-882d-bcb579f8c1c0)
+
 
 
 
