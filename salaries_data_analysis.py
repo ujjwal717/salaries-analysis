@@ -4,10 +4,47 @@ import plotly.graph_objects as go
 
 df = pd.read_csv("salaries_usable.csv")
 
+fig_0 = px.box(
+    df,
+    y="Salary_in_USD",
+    points="all",
+    width=1000,
+    height=700,
+    title="DATA WITH OUTLIERS",
+)  # visual for box plot method
+fig_0.show()
+
+q1 = df.Salary_in_USD.quantile(0.25)  # Calculating the value of first quartile
+q3 = df.Salary_in_USD.quantile(0.75)   # Calculating the value of third quartile
+
+iqr = q3 - q1  # calculating IQR
+
+lower_limit = max(
+    0, q1 - 1.5 * iqr
+)  # getting lower limit and ensuring we don't get negative values
+upper_limit = q3 + 1.5 * iqr  # getting upper limit
+
+
+df_no_outlier = df[
+    (df.Salary_in_USD > lower_limit)  # loading outlier free data in new data frame
+    & (df.Salary_in_USD < upper_limit)
+]
+
+
+fig_0 = px.box(
+    df_no_outlier,
+    y="Salary_in_USD",
+    points="all",
+    width=1000,
+    height=700,
+    title="DATA WITHOUT OUTLIERS",
+)  # visual for box plot method
+fig_0.show()
+
 
 def different_level():  # This function displays average salary of job titles according to experience level
 
-    df_exp = df.query(
+    df_exp = df_no_outlier.query(
         '(Job_title == "Data Scientist" '  # Loading data from dataframe according to requirements
         'or Job_title == "Data Analyst"'
         ' or Job_title == "Machine Learning Engineer"  or Job_title == "Data Engineer"'
@@ -55,7 +92,7 @@ def different_level():  # This function displays average salary of job titles ac
 
 
 def salary_across_years():  # This function shows average salary in various job titles across year 2021 - 2023
-    df_across_years = df.query(
+    df_across_years = df_no_outlier.query(
         '(Job_title == "Data Scientist" or Job_title == "Data Analyst"'  # Loading data from df according to requirement
         ' or Job_title == "ML Engineer"  or Job_title == "Data Engineer" )'
         " and (Year > 2020 and Year <= 2023)"
@@ -94,7 +131,7 @@ def salary_across_years():  # This function shows average salary in various job 
 
 def salaries_vs_countries():  # This Function shows average salary in different countries according to experience level
 
-    df_salary = df.query(
+    df_salary = df_no_outlier.query(
         '( Job_title == "Data Engineer" '  # Loading data from df according to requirement
         'or Job_title == "Data Analyst"'
         ' or Job_title == "Data Scientist" or Job_title == "Machine Learning Engineer")'
@@ -140,7 +177,7 @@ def salaries_vs_countries():  # This Function shows average salary in different 
 
 
 def company_size():  # This function shows average salary across years in "entry" experience level by company size
-    df_company = df.query(
+    df_company = df_no_outlier.query(
         '(Job_title == "Data Analyst" or Job_title == "Data Scientist"'  # Loaded required data
         ' or Job_title == "Data Engineer" or Job_title == "Machine Learning Engineer")'
         ' and (Year > 2020 and Year <= 2023) and Experience_level != "Executive" '
@@ -180,7 +217,7 @@ def company_size():  # This function shows average salary across years in "entry
 
 def employees_residence():  # This function gives salary average according to employee residence
 
-    df_res = df.query(
+    df_res = df_no_outlier.query(
         '(Job_title == "Data Engineer" or Job_title == "Data Analyst"'  # Loading necessary data
         ' or Job_title == "Data Scientist" or Job_title == "Machine Learning Engineer"'
         ' or Job_title == "BI Analyst") and (Employee_residence == "United States"'
@@ -199,7 +236,7 @@ def employees_residence():  # This function gives salary average according to em
         df_res,
         color_discrete_map={
             "United States": "rgb(27,158,119)",
-            "United Kingdom": "rgb(166,118,29)"   # Giving custom colors as required and gave data frame
+            "United Kingdom": "rgb(166,118,29)"  # Giving custom colors as required and gave data frame
             "",
             "Canada": "rgb(102,102,102)",
         },
