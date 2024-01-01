@@ -96,8 +96,7 @@ Different analysis given below :-
   entry level has less salary than mid level and mid level has less salary than senior level roles normally.
 
 
-  **Reason :-** The reason for little dip in the machine learning engineer might be from the fact that the year of dip(2022) might have more entry level roles in the dataset due to which the 
-  average of that year as a whole depleted a bit in the machine learning engineer title which might not be the fact in the other job titles. Other than that, the increase or growth of these 
+  **Reason :-** There is a little dip in the machine learning engineer for 2022 but that dip is really small. Other than that, the increase or growth of these 
   roles is really great as with the growth of AI/ML, the data related roles such as data analyst, data engineering etc have also flourished as the creating ETL pipelines for the data and the 
   effective analysis for the data is also required and that requirement is increasing because AI/ML are more related to data and modelling in ML can only be done effectively if the data is 
   cleaned and usable which gave this boost to data related roles as well.
@@ -118,7 +117,7 @@ Different analysis given below :-
   according to the amount of average salary and is directy proportional that is higher the average salary, bigger the bubble. Also, legends are supported and legends are according to the 
   company size.
 
-  **Insight 1 :-** I found that medium sized companies often pay more than small size and large size company in almost all the roles.
+  **Insight 1 :-** I found that medium sized companies often pay more than small size and large size company in many roles.
 
   **Reason 1 :-** The possible reason for that is the fact that, a medium sized company has more scope of growth which means the growth potential and possibility of growth is higher as 
   compared to large sized companies(they are already big and they may also have growth potential but it won't be as much as a medium sized company). The medium sized companies might be 
